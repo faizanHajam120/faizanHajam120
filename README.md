@@ -9,6 +9,7 @@ with a focus on low-resource language NLP and applied mental-wellness technology
 
 [Website](https://www.calmconnect.live/) ·
 [Kashmir AI Research](https://kashmirairesearch.online/) ·
+[GitHub: kashmir-ai-research](https://github.com/faizanHajam120/kashmir-ai-research) ·
 [LinkedIn](https://linkedin.com/in/faizan-hajam)
 
 ---
@@ -23,20 +24,28 @@ with a focus on low-resource language NLP and applied mental-wellness technology
 
 ## Research
 
-**Kashmir AI Research** — open NLP infrastructure for Kashmiri, a language with
+**[Kashmir AI Research](https://kashmirairesearch.online/)** builds language technology for
+Kashmiri: benchmarks, open parallel data and Kashmiri↔English machine translation. Kashmiri has
 ~7 million speakers and almost no machine-translation support.
+Project overview: **[kashmir-ai-research](https://github.com/faizanHajam120/kashmir-ai-research)**
 
-- **124,102**-pair Kashmiri–English training set, aggregated from existing
-  open-source corpora — deduplicated, re-aligned, script-normalised and
-  quality-filtered into a single usable set. Source datasets credited in the
-  release notes; the underlying data is not my own collection.
-- QLoRA-adapted Mistral-7B benchmarked against NLLB-200 and IndicTrans2
-- Native-speaker evaluation platform for adequacy and fluency ratings —
-  original data collection, gathered through the platform
+- **Best Paper Award, ICRTC-2026** (Springer), with Neha Prerna Tigga:
+  *[Anatomy of Decoder-Only LLM Failure in Low-Resource Machine Translation: Tokenizer Fertility,
+  Data Thresholds, and Decoding Strategies for Kashmiri](https://kashmirairesearch.online/research)*.
+  A QLoRA-adapted Mistral-7B benchmarked against NLLB-200 and IndicTrans2.
+- **[Kashmiri→English translator](https://kashmirairesearch.online/translate)**: NLLB-200 600M
+  fine-tuned on 93,064 pairs, free in the browser;
+  [model on Hugging Face](https://huggingface.co/Faizanayub/kashmirai-nllb600m-ks-en-ct2)
+- **124,102**-pair Kashmiri–English training set, aggregated from existing open corpora
+  (AI4Bharat BPCC and the SMUQamar corpus), then deduplicated and filtered on length and script.
+  The sources are credited; the underlying data is not my own collection.
+- **Native-speaker evaluation platform**: blinded ratings and error annotation by Kashmiri
+  speakers (original data collection)
+- **[Kashmiri NLP resource hub](https://kashmirairesearch.online/resources)**: datasets, papers,
+  models and tools in one searchable catalogue
 
-*Anatomy of Decoder-Only LLM Failure in Low-Resource Machine Translation* —
-ICRTC-2026, with Neha Prerna Tigga. Documents a data threshold below which
-cross-lingual transfer collapses.
+Research is ongoing, with several papers in preparation for the coming months, including
+follow-up work re-testing the ICRTC-2026 results and the KashEval benchmark.
 
 ---
 
