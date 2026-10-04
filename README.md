@@ -49,17 +49,20 @@ follow-up work re-testing the ICRTC-2026 results and the KashEval benchmark.
 
 ---
 
-## Selected work
+## Live products
 
-Most of my work lives in private repositories. Summary of what I've shipped:
+Everything below is live. The code lives in private repositories.
 
-| Project | What it is | Stack |
+| Product | What it is | Stack |
 |---|---|---|
-| **CalmConnect** | AI-assisted student wellness platform — mood journaling, PHQ-9/GAD-7 screening, AI wellness companion, psychologist booking. Multi-role: students, parents, clinicians, institutions. | TypeScript, Next.js, Postgres |
-| **Kashmiri Eval App** | Evaluation platform where native Kashmiri speakers rate machine-translation output, producing ground-truth data for the research above. | JavaScript, PostgreSQL |
-| **Clothesi ERP** | Retail ERP for [clothesi.in](https://clothesi.in/), a branded-fashion retailer in Srinagar — in-store POS, inventory, and a cashback wallet. Client engagement. | TypeScript, PLpgSQL |
-| **Volunteer Hours Platform** | Service-hour tracking, cohort management and impact reporting for volunteer programmes. | TypeScript, PostgreSQL |
-| **Baghdadi Biryani** | Ordering and delivery platform — customer wallet, cashback, QR scanning, admin analytics dashboard. | Next.js 15, TypeScript, Supabase, Clerk |
+| **[Kashmir AI Research](https://kashmirairesearch.online)** | Kashmiri NLP research platform: a Kashmiri→English translator, a native-speaker evaluation platform and a resource hub of 115 Kashmiri NLP resources | Next.js, Python, PostgreSQL |
+| **[CalmConnect](https://calmconnect.in)** | AI-assisted student wellness platform: mood journaling, PHQ-9/GAD-7 screening, AI wellness companion, psychologist booking, for students, parents, clinicians and institutions ([brand site](https://www.calmconnect.live)) | TypeScript, Next.js, Postgres |
+| **[CalmConnect Research Lab](https://research.calmconnect.in)** | Academic research portal on student mental health | Next.js 16, TypeScript, Supabase |
+| **[AmanahVale](https://amanahvale.com)** | AI education platform for Kashmir: students learn AI by doing it, teachers learn to teach it | Next.js 16, Supabase |
+| **[Baghdadi Biryani](https://www.baghdadibiryani.com)** | Ordering and delivery platform: customer wallet, cashback, QR scanning, admin analytics dashboard | Next.js 15, TypeScript, Supabase, Clerk |
+| **[Clothesi](https://www.clothesi.in)** | Retail ERP for a branded-fashion retailer in Srinagar: in-store POS, inventory and a cashback wallet (client engagement) | Next.js 15, TypeScript, Supabase |
+| **[Abdul Quyoom](https://abdul-qayoom-portfolio.vercel.app)** | Personal portfolio site (client) | Next.js 16, TypeScript |
+| **[The Offline Solar System Game](https://offline-solar-system-game.vercel.app)** | Educational game that runs offline | Next.js 16, JavaScript |
 
 **Public repositories** (earlier work):
 [Voice-Activated Image Search](https://github.com/faizanHajam120/Voice-Activated-Image-Search-System-via-Real-Time-Speech-Recognition) ·
